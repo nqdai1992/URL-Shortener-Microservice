@@ -4,6 +4,7 @@ var data = {}
 function getRandomNumber(min,max) {
     return Math.floor(Math.random()*(max - min + 1) + min)
 }
+app.use('/',express.static('public'));
 app.get('/new/*', function (req, res) {
     var url = req.url;
     var link = url.replace(/\/new\//gi,'');
@@ -25,4 +26,4 @@ app.get('/:id', function (req, res) {
     res.end();
 })
 
-app.listen(3000);
+app.listen(process.env.PORT||5000);

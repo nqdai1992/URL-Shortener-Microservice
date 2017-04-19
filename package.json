@@ -1,0 +1,22 @@
+{
+  "name": "url-shorten-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nqdai1992/URL-Shortener-Microservice.git"
+  },
+  "author": "dainguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nqdai1992/URL-Shortener-Microservice/issues"
+  },
+  "homepage": "https://github.com/nqdai1992/URL-Shortener-Microservice#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
